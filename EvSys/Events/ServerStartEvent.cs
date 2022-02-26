@@ -4,7 +4,7 @@ using Server.Custom.Skyfly.EvSys.Attributes;
 namespace Server.Custom.Skyfly.EvSys.Events
 {
 	// Automatically queue up the event once the server has started
-	[EventAutoQueue]
+	//[EventAutoQueue]
 	public class ServerStartEvent : BaseEvent
 	{
 		int _executionCount;
