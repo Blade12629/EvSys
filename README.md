@@ -2,7 +2,7 @@
 Simple Event System made for ServUO
 
 # Installation
-- Simply drop the code into your server scripts
+- https://github.com/Blade12629/EvSys/wiki/Setup
 
 # Usage
 For example scripts check the "Events" folder
