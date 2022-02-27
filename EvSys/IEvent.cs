@@ -37,9 +37,10 @@ namespace Server.Custom.Skyfly.EvSys
 		void OnEventFinish();
 
 		/// <summary>
-		/// Called when the event is requeued (happens at the same tick as the event finishes)
+		/// Called when the event is requeued
 		/// </summary>
 		void OnEventRequeue();
+		
 		/// <summary>
 		/// Called when the event is queued
 		/// <para>Does not get called should the event be requeued</para>
